@@ -4572,7 +4572,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6131092186730876919}
-  - component: {fileID: 6573751121874269489}
   m_Layer: 0
   m_Name: warrior 3
   m_TagString: Untagged
@@ -4599,32 +4598,6 @@ Transform:
   - {fileID: 1574127093556965424}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6573751121874269489
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4798376655655639335}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ec4f2e8c9fd62754d88e1b121b9daa6f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9f7f6b77151596c45a537cf7dc793f7a, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'pelvis'\n\tTransform 'lowerarm_l'\n\tTransform
-    'neck_01'\n\tTransform 'clavicle_l'\n\tTransform 'hand_l'\n\tTransform 'spine_02'\n\tTransform
-    'upperarm_r'\n\tTransform 'upperarm_l'\n\tTransform 'thigh_l'\n\tTransform 'calf_l'\n\tand
-    more ...\n\tFrom animation clip 'idle'"
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4808382204472136953
 GameObject:
   m_ObjectHideFlags: 0

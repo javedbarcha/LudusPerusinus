@@ -90,8 +90,7 @@ namespace MoreMountains.Feedbacks
                         "You can use Feel without them of course, but this demo needs them to work (check out the documentation to learn more!).\n\n" +
                         "Would you like to automatically install them?", "Yes, install dependencies", "No"))
                 {
-                    // TODO: the following line is commented out
-                    // MMFDependencyInstaller.InstallFromPlay();
+                    MMFDependencyInstaller.InstallFromPlay();
                 }
             }
             #endif
