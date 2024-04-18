@@ -9,8 +9,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TCP2_Demo ethan_glasses_lens
   m_Shader: {fileID: 4800000, guid: fdcc1f820770fb24da5893988fbe0a8d, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - TCP2_BUMP
   - TCP2_SPEC
@@ -24,7 +22,6 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:

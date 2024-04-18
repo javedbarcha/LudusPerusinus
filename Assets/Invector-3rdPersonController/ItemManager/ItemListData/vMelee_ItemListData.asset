@@ -27,7 +27,7 @@ MonoBehaviour:
   - {fileID: 11437076}
   - {fileID: 11411708}
   - {fileID: 114043347838910644}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -41,6 +41,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Blue
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 10
   description: Blue Keycard to open doors
   type: 0
@@ -78,6 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Gold
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 12
   description: Gold Keycard to open doors
   type: 0
@@ -115,6 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Red
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 11
   description: Red Keycard to open doors
   type: 0
@@ -152,6 +161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Shield
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 9
   description: 'Melee Shield
 
@@ -163,8 +175,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000012874595254, guid: d4ca9135af96d5142987a1f1427b099a, type: 3}
-  dropObject: {fileID: 8587624101741613191, guid: e26f928aabf2af048b7def78ec83a486, type: 3}
+  originalObject: {fileID: 1000012874595254, guid: d4ca9135af96d5142987a1f1427b099a,
+    type: 3}
+  dropObject: {fileID: 8587624101741613191, guid: e26f928aabf2af048b7def78ec83a486,
+    type: 3}
   attributes:
   - name: 3
     value: 0
@@ -205,6 +219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Katana
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 1
   description: Melee Weapon
   type: 1
@@ -212,8 +229,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508, type: 3}
-  dropObject: {fileID: 3314097323225006234, guid: 0f2c84cd3287333448744ce0451196cd, type: 3}
+  originalObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508,
+    type: 3}
+  dropObject: {fileID: 3314097323225006234, guid: 0f2c84cd3287333448744ce0451196cd,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -258,6 +277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Sword
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 7
   description: Melee Weapon
   type: 1
@@ -265,8 +287,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000014209087140, guid: d03b45803e637bb4fb00a1ca9030d66e, type: 3}
-  dropObject: {fileID: 4500584118820961459, guid: eca1e51be6676704dbb7f23b4947883b, type: 3}
+  originalObject: {fileID: 1000014209087140, guid: d03b45803e637bb4fb00a1ca9030d66e,
+    type: 3}
+  dropObject: {fileID: 4500584118820961459, guid: eca1e51be6676704dbb7f23b4947883b,
+    type: 3}
   attributes:
   - name: 2
     value: 30
@@ -311,6 +335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Katana
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 8
   description: Melee Weapon
   type: 1
@@ -318,8 +345,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000013423493360, guid: 6bbee781522ce5243a02bf72cd914cf5, type: 3}
-  dropObject: {fileID: 2197774501603174495, guid: 7dcfb29ec0c968041b99dd41d13cec28, type: 3}
+  originalObject: {fileID: 1000013423493360, guid: 6bbee781522ce5243a02bf72cd914cf5,
+    type: 3}
+  dropObject: {fileID: 2197774501603174495, guid: 7dcfb29ec0c968041b99dd41d13cec28,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -364,6 +393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 6
   description: 'Melee Shield
 
@@ -373,8 +405,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000010116632662, guid: 2232bbcc5a195274c9744c2c6352e910, type: 3}
-  dropObject: {fileID: 862192267840601332, guid: d07ef1bfe3f5bf4469394a9c723bbbc1, type: 3}
+  originalObject: {fileID: 1000010116632662, guid: 2232bbcc5a195274c9744c2c6352e910,
+    type: 3}
+  dropObject: {fileID: 862192267840601332, guid: d07ef1bfe3f5bf4469394a9c723bbbc1,
+    type: 3}
   attributes:
   - name: 3
     value: 0
@@ -415,6 +449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Max Health Potion
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 5
   description: Increases the MaxHealth
   type: 0
@@ -456,6 +493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 0
   description: Melee Weapon
   type: 1
@@ -463,8 +503,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000010725870802, guid: 0cf98a7633e41834ba19e8626f1ceadc, type: 3}
-  dropObject: {fileID: 880292917891664030, guid: 4ce32edaf6024884898e95f24f9f763a, type: 3}
+  originalObject: {fileID: 1000010725870802, guid: 0cf98a7633e41834ba19e8626f1ceadc,
+    type: 3}
+  dropObject: {fileID: 880292917891664030, guid: 4ce32edaf6024884898e95f24f9f763a,
+    type: 3}
   attributes:
   - name: 2
     value: 30
@@ -509,6 +551,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Stamina Up Potion
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 4
   description: Increase Stamina
   type: 0
@@ -550,6 +595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Sword
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 3
   description: Melee Weapon
   type: 1
@@ -557,8 +605,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000012884940116, guid: 5dc53aa14e78ec54fbf2281c1abb7f47, type: 3}
-  dropObject: {fileID: 819158048279699071, guid: 0f25b0bc9b7934840b324072cedb3325, type: 3}
+  originalObject: {fileID: 1000012884940116, guid: 5dc53aa14e78ec54fbf2281c1abb7f47,
+    type: 3}
+  dropObject: {fileID: 819158048279699071, guid: 0f25b0bc9b7934840b324072cedb3325,
+    type: 3}
   attributes:
   - name: 2
     value: 15
@@ -603,6 +653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Health Potion
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 2
   description: Recover Health
   type: 0
@@ -644,6 +697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Dual Swords
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 24
   description: Melee Weapon
   type: 1
@@ -651,8 +707,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1000012884940116, guid: f0df66e0950da4642afce9f6382ab231, type: 3}
-  dropObject: {fileID: 5960025752436353048, guid: 25e7bf6c702446e47bbc7ce3a6aaaeb5, type: 3}
+  originalObject: {fileID: 1000012884940116, guid: f0df66e0950da4642afce9f6382ab231,
+    type: 3}
+  dropObject: {fileID: 5960025752436353048, guid: 25e7bf6c702446e47bbc7ce3a6aaaeb5,
+    type: 3}
   attributes:
   - name: 2
     value: 10

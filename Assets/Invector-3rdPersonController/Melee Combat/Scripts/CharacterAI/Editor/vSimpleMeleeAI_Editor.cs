@@ -3,16 +3,13 @@ using UnityEngine;
 namespace Invector.vCharacterController.AI
 {
     [CanEditMultipleObjects]
-    [CustomEditor(typeof(v_AIMotor), true)]
-    public class v_AIEditor : vEditorBase
+    [CustomEditor(typeof(vSimpleMeleeAI_Motor), true)]
+    public class vSimpleMeleeAI_Editor : vEditorBase
     {
-
-        Transform waiPointSelected;
-
         protected override void OnEnable()
         {
             base.OnEnable();
-            v_AIMotor motor = (v_AIMotor)target;
+            vSimpleMeleeAI_Motor motor = (vSimpleMeleeAI_Motor)target;
 
             if (motor.gameObject.layer == LayerMask.NameToLayer("Default"))
             {
@@ -25,11 +22,21 @@ namespace Invector.vCharacterController.AI
         public void OnSceneGUI()
         {
             if (Selection.activeTransform == null || !Selection.activeGameObject.activeSelf)
+            {
                 return;
+            }
 
-            v_AIMotor motor = (v_AIMotor)target;
-            if (!motor) return;
-            if (!motor.displayGizmos) return;
+            vSimpleMeleeAI_Motor motor = (vSimpleMeleeAI_Motor)target;
+            if (!motor)
+            {
+                return;
+            }
+
+            if (!motor.displayGizmos)
+            {
+                return;
+            }
+
             Handles.color = new Color(0, 0, 0, 0.5f);
             Handles.DrawSolidDisc(motor.transform.position, Vector3.up, motor.lostTargetDistance);
             Handles.color = new Color(1, 1, 0, 0.2f);
@@ -45,19 +52,24 @@ namespace Invector.vCharacterController.AI
             Handles.DrawSolidDisc(motor.transform.position, Vector3.up, motor.distanceToAttack);
         }
 
-        void CreateSensor(v_AIMotor motor)
+        void CreateSensor(vSimpleMeleeAI_Motor motor)
         {
             if (Selection.activeTransform == null || !Selection.activeGameObject.activeSelf)
+            {
                 return;
+            }
 
-            motor.sphereSensor = motor.GetComponentInChildren<v_AISphereSensor>();
-            if (motor.sphereSensor != null) return;
+            motor.sphereSensor = motor.GetComponentInChildren<vSimpleMeleeAI_SphereSensor>();
+            if (motor.sphereSensor != null)
+            {
+                return;
+            }
 
-            var sensor = new GameObject("SphereSensor",typeof(SphereCollider));
+            var sensor = new GameObject("SphereSensor", typeof(SphereCollider));
             var layer = LayerMask.NameToLayer("Triggers");
             sensor.layer = layer;
             sensor.tag = "Weapon";
-            motor.sphereSensor = sensor.AddComponent<v_AISphereSensor>();
+            motor.sphereSensor = sensor.AddComponent<vSimpleMeleeAI_SphereSensor>();
             sensor.transform.position = motor.transform.position;
             sensor.transform.parent = motor.transform;
             motor.sphereSensor.GetComponent<SphereCollider>().isTrigger = true;
@@ -66,14 +78,21 @@ namespace Invector.vCharacterController.AI
 
         public override void OnInspectorGUI()
         {
-            v_AIMotor motor = (v_AIMotor)target;
+            vSimpleMeleeAI_Motor motor = (vSimpleMeleeAI_Motor)target;
             serializedObject.Update();
-            if (!motor) return;
+            if (!motor)
+            {
+                return;
+            }
 
             if (motor.sphereSensor == null)
+            {
                 CreateSensor(motor);
+            }
             else
+            {
                 motor.sphereSensor.SetColliderRadius(motor.maxDetectDistance);
+            }
 
             if (motor.gameObject.layer == LayerMask.NameToLayer("Default"))
             {
@@ -91,8 +110,9 @@ namespace Invector.vCharacterController.AI
 
 
             if (Application.isPlaying)
+            {
                 GUILayout.Box("Current Health: " + motor.currentHealth.ToString());
-
+            }
 
             base.OnInspectorGUI();
             serializedObject.ApplyModifiedProperties();
@@ -109,11 +129,17 @@ namespace Invector.vCharacterController.AI
 #if UNITY_EDITOR
             if (Application.isPlaying)
             {
-                v_AIMotor motor = (v_AIMotor)aTarget.GetComponent<v_AIMotor>();
+                vSimpleMeleeAI_Motor motor = aTarget.GetComponent<vSimpleMeleeAI_Motor>();
 
-                if (!motor || !motor.enabled) return;
-                if (Selection.activeTransform == null || !Selection.activeGameObject.activeSelf)
+                if (!motor || !motor.enabled)
+                {
                     return;
+                }
+
+                if (Selection.activeTransform == null || !Selection.activeGameObject.activeSelf)
+                {
+                    return;
+                }
 
                 // debug auto crouch
                 Vector3 posHead = motor.transform.position + Vector3.up * ((motor._capsuleCollider.height * 0.5f) - motor._capsuleCollider.radius);
@@ -122,6 +148,28 @@ namespace Invector.vCharacterController.AI
                 Handles.Label(ray1.GetPoint((motor.headDetect + (motor._capsuleCollider.radius))), "Head Detection");
             }
 #endif
+        }
+    }
+
+    public class PopUpLayerInfoEditor : EditorWindow
+    {
+        GUISkin skin;
+        Vector2 rect = new Vector2(360, 100);
+
+        void OnGUI()
+        {
+            this.titleContent = new GUIContent("Warning!");
+            this.minSize = rect;
+
+            EditorGUILayout.HelpBox("Please assign your EnemyAI to the Layer 'Enemy'.", MessageType.Warning);
+
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
+
+            if (GUILayout.Button("OK", GUILayout.Width(80), GUILayout.Height(20)))
+            {
+                this.Close();
+            }
         }
     }
 
