@@ -57,11 +57,11 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114536024554316042}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 1
       decision: {fileID: 114289720523200560}
-      isValid: 0
+      isValid: 1
       validated: 0
     trueState: {fileID: 7363846097005407233}
     falseState: {fileID: 0}
@@ -144,6 +144,7 @@ MonoBehaviour:
   executionType: 1
   editingName: 0
   useStrafeMovement: 0
+  updateRotationInStrafe: 0
   speed: 2
 --- !u!114 &11400000
 MonoBehaviour:
@@ -239,6 +240,8 @@ MonoBehaviour:
   editingName: 0
   debugMode: 0
   patrolSpeed: 1
+  patrolInStrafe: 0
+  updateRotationInStrafe: 1
 --- !u!114 &114194159120130302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -859,19 +862,19 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114536024554316042}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 0
       decision: {fileID: 114194159120130302}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 1
       decision: {fileID: 114289720523200560}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 0
       decision: {fileID: 114641934216470306}
@@ -911,19 +914,19 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114536024554316042}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 0
       decision: {fileID: 114194159120130302}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114289720523200560}
-      isValid: 1
+      isValid: 0
       validated: 0
     trueState: {fileID: -2649637926090360853}
     falseState: {fileID: 0}
@@ -959,7 +962,7 @@ MonoBehaviour:
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
-      isValid: 1
+      isValid: 0
       validated: 0
     trueState: {fileID: -2649637926090360853}
     falseState: {fileID: 0}
@@ -991,19 +994,19 @@ MonoBehaviour:
   - decisions:
     - trueValue: 0
       decision: {fileID: 114536024554316042}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114194159120130302}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 1
       decision: {fileID: 114520122446804074}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 1
       decision: {fileID: 114289720523200560}
-      isValid: 0
+      isValid: 1
       validated: 0
     trueState: {fileID: -2649637926090360853}
     falseState: {fileID: 0}
@@ -1039,11 +1042,11 @@ MonoBehaviour:
       validated: 0
     - trueValue: 0
       decision: {fileID: 114336082339236152}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114043660798363760}

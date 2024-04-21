@@ -117,7 +117,7 @@ MonoBehaviour:
   - decisions:
     - trueValue: 0
       decision: {fileID: 114604349387134454}
-      isValid: 1
+      isValid: 0
       validated: 0
     trueState: {fileID: -1447553757549190890}
     falseState: {fileID: 0}
@@ -210,7 +210,7 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114529698668847202}
-      isValid: 1
+      isValid: 0
       validated: 0
     trueState: {fileID: 114334318501887712}
     falseState: {fileID: 0}
@@ -270,7 +270,7 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114604349387134454}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 1
       decision: {fileID: 114536024554316042}
@@ -1059,11 +1059,11 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114335219564936060}
-      isValid: 0
+      isValid: 1
       validated: 0
     - trueValue: 1
       decision: {fileID: 114933908046907872}
-      isValid: 0
+      isValid: 1
       validated: 0
     trueState: {fileID: 114126970210830934}
     falseState: {fileID: 0}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114536024554316042}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   - decisions:
     - trueValue: 1
       decision: {fileID: 114536024554316042}
-      isValid: 1
+      isValid: 0
       validated: 0
     - trueValue: 0
       decision: {fileID: 114520122446804074}
