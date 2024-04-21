@@ -5,6 +5,7 @@ using UnityEngine;
 public class Stone : MonoBehaviour
 {
     public int waitTimeBeforeStoneDestroy = 5;
+    public int damageValue = 1;
     void Awake() {
         StartCoroutine(DestroyStone());
     }

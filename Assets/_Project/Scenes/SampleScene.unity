@@ -9304,7 +9304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -9330,7 +9330,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -13047,7 +13047,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -249.5, y: -15.0004425}
+  m_AnchoredPosition: {x: -249.5, y: -15.000519}
   m_SizeDelta: {x: 250, y: -30}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &493886126
@@ -17289,7 +17289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -17315,7 +17315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -21037,7 +21037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -21063,7 +21063,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -21258,7 +21258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 2
+  selectedToolbar: 1
   minDistanceToAim: 1
   checkAimRadius: 0.1
   smoothHandRotation: 30
@@ -26256,7 +26256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -26282,7 +26282,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -55568,7 +55568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -55594,7 +55594,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -57844,7 +57844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -57870,7 +57870,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -59103,6 +59103,7 @@ GameObject:
   - component: {fileID: 1897504327}
   - component: {fileID: 1897504326}
   - component: {fileID: 1897504342}
+  - component: {fileID: 1897504343}
   m_Layer: 8
   m_Name: vMeleeController_warrior 3 Skin 2
   m_TagString: Player
@@ -60413,6 +60414,18 @@ MonoBehaviour:
   - Ignore Ragdoll
   horizontalMultiplier: 1
   verticalMultiplier: 0.5
+--- !u!114 &1897504343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897504325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb3e0d291b4b154aa075fd871bacedd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1900000357
 GameObject:
   m_ObjectHideFlags: 0
@@ -61352,7 +61365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 9
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -61378,7 +61391,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 1
+  removeComponentsAfterDie: 0
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
