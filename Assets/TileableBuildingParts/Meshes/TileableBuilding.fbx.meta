@@ -1,0 +1,1637 @@
+fileFormatVersion: 2
+guid: 90ba0a17d1485ec46a095a1efa4149d8
+timeCreated: 1450237277
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Area
+    100002: awning
+    100004: awning frame
+    100006: awning frame.001
+    100008: awning frame.002
+    100010: awning frame.003
+    100012: awning frame.004
+    100014: awning.001
+    100016: awning.002
+    100018: awning.003
+    100020: awning.004
+    100022: Beam 1.5m
+    100024: Beam 3m
+    100026: Beam box.001
+    100028: Beam Small 1m
+    100030: Beam Small 3m
+    100032: //RootNode
+    100034: Camera
+    100036: Ceiling 1.5m.003
+    100038: Ceiling 1m
+    100040: Ceiling 1x3m
+    100042: Ceiling 2x3m
+    100044: Ceiling 3m
+    100046: Ceiling tri 1m
+    100048: Ceiling tri 2m
+    100050: Ceiling tri 3m
+    100052: Door 1x2m
+    100054: Door 1x2m left
+    100056: Door 1x2m left.001
+    100058: Door 1x2m left.004
+    100060: Door 1x2m left.005
+    100062: Door 1x2m left.006
+    100064: Door 1x2m left.007
+    100066: Door 1x2m left.008
+    100068: Door 1x2m.008
+    100070: Door 1x2m.009
+    100072: Door 1x2m.010
+    100074: Door 1x2m.011
+    100076: Door 1x2m.012
+    100078: Door 1x2m.015
+    100080: Door 1x2m.016
+    100082: Door 1x2m.017
+    100084: DoorBorder 1x1m.026
+    100086: DoorBorder 1x2m
+    100088: DoorBorder 1x2m.001
+    100090: DoorBorder 1x2m.002
+    100092: DoorBorder 1x2m.003
+    100094: DoorBorder 1x2m.012
+    100096: DoorBorder 1x2m.022
+    100098: DoorBorder 1x2m.027
+    100100: DoorBorder 1x2m.028
+    100102: DoorBorder 1x2m.029
+    100104: DoorBorder 1x2m.039
+    100106: DoorBorder 1x2m.040
+    100108: DoorBorder 2x2m
+    100110: DoorBorder 2x2m.002
+    100112: DoorFrame 1x2m
+    100114: DoorFrame 1x2m.012
+    100116: DoorFrame 1x2m.014
+    100118: DoorFrame 1x2m.039
+    100120: DoorFrame 1x2m.040
+    100122: DoorFrame 1x2m.041
+    100124: DoorFrame 1x2m.046
+    100126: DoorFrame 1x2m.047
+    100128: DoorFrame 2x2m
+    100130: DoorFrame 2x2m.002
+    100132: Fence i.001
+    100134: Fence L.006
+    100136: Fence T.001
+    100138: Fence TT.001
+    100140: Foundation 3x3m
+    100142: Foundation Ceiling
+    100144: Foundation half 3x3m
+    100146: Foundation0.5x3m.001
+    100148: Foundation1.5x3m
+    100150: Foundation1x3m
+    100152: Grid Cube
+    100154: Grid Cylinder
+    100156: Lamp
+    100158: Lamp.003
+    100160: Lamp.004
+    100162: Pillar 3m
+    100164: Pillar Foundation
+    100166: Roof Beam 1.6m
+    100168: Roof Beam half 3m
+    100170: Roof Beam Small 0.5m
+    100172: Roof Beam Small 1.5m
+    100174: Roof Beam Small 1m
+    100176: Roof Beam Small 2.5m
+    100178: Roof Beam Small 2m
+    100180: Roof Beam Small 3m
+    100182: Roof Fragment 1.5m center
+    100184: Roof Fragment 1.5m left
+    100186: Roof Fragment 1.5m right
+    100188: Roof Fragment 3m center left
+    100190: Roof Fragment 3m center right
+    100192: Roof Fragment 3m left
+    100194: Roof Fragment 3m right
+    100196: Roof Frame 1.5m
+    100198: Roof frame 3m
+    100200: Roof Gable
+    100202: Roof Gable End
+    100204: Roof Gable Frame
+    100206: Roof Gable Hip
+    100208: Roof Gable Hip Frame
+    100210: Roof Gable L
+    100212: Roof Gable L Frame
+    100214: Roof Gable Rake
+    100216: Roof Gable Rake Connect
+    100218: Roof Gable Rake Connect Frame
+    100220: Roof Gable Rake Crosswise
+    100222: Roof Gable Rake Crosswise Frame
+    100224: Roof Gable T
+    100226: Roof Gable T Frame
+    100228: Roof Gable X
+    100230: Roof Gable X Frame
+    100232: Roof Hip
+    100234: Roof Hip Beam
+    100236: Roof Hip Beam Crosswire
+    100238: Roof Hip Beam half Crosswire
+    100240: Roof Hip Crosswire
+    100242: Roof Hip Crosswire Frame
+    100244: Roof Hip Frame
+    100246: Roof Octagon Gable
+    100248: Roof Octagon Gable Frame
+    100250: Roof Octagon Hip
+    100252: Roof Octagon Hip Frame
+    100254: Roof Pillar 1.5m
+    100256: Roof Pyramid
+    100258: Roof Pyramid Frame
+    100260: Roof Shed
+    100262: Roof Shed End
+    100264: Roof Shed Frame
+    100266: Roof Shed Gable
+    100268: Roof Shed Gable Frame
+    100270: Roof Shed Rake Back
+    100272: Roof Shed Rake Front
+    100274: Roof Valley
+    100276: Roof Valley Frame
+    100278: Roofs Standard Pitch45
+    100280: Sign beam.001
+    100282: Sign board.001
+    100284: Stair
+    100286: Stair 1m
+    100288: Stair 2m
+    100290: Stair 3m
+    100292: Stair Foundation 1m
+    100294: Stair Foundation 2m
+    100296: Stair Foundation 3m
+    100298: Stair Foundation Fence T
+    100300: Stair Foundation Short 1m
+    100302: Stair Foundation Short 2m
+    100304: Stair Foundation Short 3m
+    100306: Stair Foundation Short Fence
+    100308: Stair Short 1m
+    100310: Stair Short 2m
+    100312: Stair Short 3m
+    100314: Stair Short Fence 1m T
+    100316: Stair Short Fence T
+    100318: Stair Short light 1m
+    100320: Stair Short light 1x1m
+    100322: Wall 1.5m
+    100324: Wall 1m
+    100326: Wall 1m Crosswise
+    100328: Wall 3m
+    100330: Wall 3m Crosswise
+    100332: Wall 4m Crosswise
+    100334: Wall Foundation
+    100336: Walls
+    100338: Window Frame 1x1m
+    100340: Window Frame 1x1m.001
+    100342: Window Frame 1x1m.002
+    100344: Window Frame 1x1m.003
+    100346: Window Frame 1x1m.004
+    100348: Window Frame 1x1m.005
+    100350: Window Frame 1x1m.006
+    100352: Window Frame 1x1m.007
+    100354: Window Frame 1x1m.038
+    100356: Window Frame 1x1m.039
+    100358: Window Frame 1x1m.040
+    100360: Window Frame 1x1m.041
+    100362: Window Frame 1x1m.042
+    100364: Window Frame 1x1m.043
+    100366: Window Frame 1x1m.044
+    100368: Window Frame 1x1m.045
+    100370: Window Frame 1x2m.000
+    100372: Window Frame 1x2m.001
+    100374: Window Frame 1x2m.002
+    100376: Window Frame 1x2m.003
+    100378: Window Frame 1x2m.004
+    100380: Window Frame 1x2m.005
+    100382: Window Frame 1x2m.006
+    100384: Window Frame 1x2m.030
+    100386: Window Frame 1x2m.038
+    100388: Window Frame 1x2m.039
+    100390: Window glass 1m.038
+    100392: Window glass 1x1m
+    100394: Window glass 1x1m.001
+    100396: Window glass 1x1m.002
+    100398: Window glass 1x1m.003
+    100400: Window glass 1x1m.004
+    100402: Window glass 1x1m.005
+    100404: Window glass 1x1m.006
+    100406: Window glass 1x1m.007
+    100408: Window glass 1x1m.008
+    100410: Window glass 1x1m.044
+    100412: Window glass 1x1m.045
+    100414: Window glass 1x1m.046
+    100416: Window glass 1x1m.047
+    100418: Window glass 1x1m.048
+    100420: Window glass 1x1m.049
+    100422: Window glass 1x1m.050
+    100424: Window glass 1x1m.051
+    100426: Window glass 1x1m.052
+    100428: Window glass 1x1m.053
+    100430: Window glass 1x1m.054
+    100432: Window glass 1x2m
+    100434: Window glass 1x2m.001
+    100436: Window glass 1x2m.002
+    100438: Window glass 1x2m.003
+    100440: Window glass 1x2m.004
+    100442: Window glass 1x2m.005
+    100444: Window glass 1x2m.006
+    100446: Window glass 1x2m.007
+    100448: Window glass 1x2m.036
+    100450: Window glass 1x2m.037
+    100452: Window glass 1x2m.038
+    100454: Window glass 1x2m.039
+    100456: Window glass 2m.039
+    100458: Window glass C 1m.002
+    100460: Window glass C 2m.002
+    100462: Window glass O 1x1m
+    100464: Window glass O 1x1m.001
+    100466: WindowBorder 1x1m
+    100468: WindowBorder 1x1m.001
+    100470: WindowBorder 1x1m.002
+    100472: WindowBorder 1x1m.003
+    100474: WindowBorder 1x1m.019
+    100476: WindowBorder 1x1m.020
+    100478: WindowBorder 1x1m.021
+    100480: WindowBorder 1x1m.022
+    100482: WindowBorder 1x1m.023
+    100484: WindowBorder 1x1m.024
+    100486: WindowBorder 1x1m.025
+    100488: WindowBorder 1x1m.029
+    100490: WindowBorderC 1x1m.000
+    100492: WindowBorderC 1x1m.001
+    100494: WindowBorderC 1x1m.002
+    100496: WindowBorderC 1x1m.021
+    100498: WindowBorderO
+    100500: WindowFrame 1x1.5m.020
+    100502: WindowFrame 1x1.5m.021
+    100504: WindowFrame 1x1m
+    100506: WindowFrame 1x2.5m.048
+    100508: WindowFrame 1x2m.001
+    100510: WindowFrame 1x2m.013
+    100512: WindowFrame 1x2m.042
+    100514: WindowFrame 1x2m.043
+    100516: WindowFrame 1x2m.044
+    100518: WindowFrameC 1x1.5m.021
+    100520: WindowFrameC 1x2.5m.002
+    100522: WindowFrameC 1x2m.000
+    100524: WindowFrameC 1x2m.001
+    100526: WindowFrameO
+    100528: WindowFrameO.001
+    100530: WindowOFrame 1x1m.019
+    400000: Area
+    400002: awning
+    400004: awning frame
+    400006: awning frame.001
+    400008: awning frame.002
+    400010: awning frame.003
+    400012: awning frame.004
+    400014: awning.001
+    400016: awning.002
+    400018: awning.003
+    400020: awning.004
+    400022: Beam 1.5m
+    400024: Beam 3m
+    400026: Beam box.001
+    400028: Beam Small 1m
+    400030: Beam Small 3m
+    400032: //RootNode
+    400034: Camera
+    400036: Ceiling 1.5m.003
+    400038: Ceiling 1m
+    400040: Ceiling 1x3m
+    400042: Ceiling 2x3m
+    400044: Ceiling 3m
+    400046: Ceiling tri 1m
+    400048: Ceiling tri 2m
+    400050: Ceiling tri 3m
+    400052: Door 1x2m
+    400054: Door 1x2m left
+    400056: Door 1x2m left.001
+    400058: Door 1x2m left.004
+    400060: Door 1x2m left.005
+    400062: Door 1x2m left.006
+    400064: Door 1x2m left.007
+    400066: Door 1x2m left.008
+    400068: Door 1x2m.008
+    400070: Door 1x2m.009
+    400072: Door 1x2m.010
+    400074: Door 1x2m.011
+    400076: Door 1x2m.012
+    400078: Door 1x2m.015
+    400080: Door 1x2m.016
+    400082: Door 1x2m.017
+    400084: DoorBorder 1x1m.026
+    400086: DoorBorder 1x2m
+    400088: DoorBorder 1x2m.001
+    400090: DoorBorder 1x2m.002
+    400092: DoorBorder 1x2m.003
+    400094: DoorBorder 1x2m.012
+    400096: DoorBorder 1x2m.022
+    400098: DoorBorder 1x2m.027
+    400100: DoorBorder 1x2m.028
+    400102: DoorBorder 1x2m.029
+    400104: DoorBorder 1x2m.039
+    400106: DoorBorder 1x2m.040
+    400108: DoorBorder 2x2m
+    400110: DoorBorder 2x2m.002
+    400112: DoorFrame 1x2m
+    400114: DoorFrame 1x2m.012
+    400116: DoorFrame 1x2m.014
+    400118: DoorFrame 1x2m.039
+    400120: DoorFrame 1x2m.040
+    400122: DoorFrame 1x2m.041
+    400124: DoorFrame 1x2m.046
+    400126: DoorFrame 1x2m.047
+    400128: DoorFrame 2x2m
+    400130: DoorFrame 2x2m.002
+    400132: Fence i.001
+    400134: Fence L.006
+    400136: Fence T.001
+    400138: Fence TT.001
+    400140: Foundation 3x3m
+    400142: Foundation Ceiling
+    400144: Foundation half 3x3m
+    400146: Foundation0.5x3m.001
+    400148: Foundation1.5x3m
+    400150: Foundation1x3m
+    400152: Grid Cube
+    400154: Grid Cylinder
+    400156: Lamp
+    400158: Lamp.003
+    400160: Lamp.004
+    400162: Pillar 3m
+    400164: Pillar Foundation
+    400166: Roof Beam 1.6m
+    400168: Roof Beam half 3m
+    400170: Roof Beam Small 0.5m
+    400172: Roof Beam Small 1.5m
+    400174: Roof Beam Small 1m
+    400176: Roof Beam Small 2.5m
+    400178: Roof Beam Small 2m
+    400180: Roof Beam Small 3m
+    400182: Roof Fragment 1.5m center
+    400184: Roof Fragment 1.5m left
+    400186: Roof Fragment 1.5m right
+    400188: Roof Fragment 3m center left
+    400190: Roof Fragment 3m center right
+    400192: Roof Fragment 3m left
+    400194: Roof Fragment 3m right
+    400196: Roof Frame 1.5m
+    400198: Roof frame 3m
+    400200: Roof Gable
+    400202: Roof Gable End
+    400204: Roof Gable Frame
+    400206: Roof Gable Hip
+    400208: Roof Gable Hip Frame
+    400210: Roof Gable L
+    400212: Roof Gable L Frame
+    400214: Roof Gable Rake
+    400216: Roof Gable Rake Connect
+    400218: Roof Gable Rake Connect Frame
+    400220: Roof Gable Rake Crosswise
+    400222: Roof Gable Rake Crosswise Frame
+    400224: Roof Gable T
+    400226: Roof Gable T Frame
+    400228: Roof Gable X
+    400230: Roof Gable X Frame
+    400232: Roof Hip
+    400234: Roof Hip Beam
+    400236: Roof Hip Beam Crosswire
+    400238: Roof Hip Beam half Crosswire
+    400240: Roof Hip Crosswire
+    400242: Roof Hip Crosswire Frame
+    400244: Roof Hip Frame
+    400246: Roof Octagon Gable
+    400248: Roof Octagon Gable Frame
+    400250: Roof Octagon Hip
+    400252: Roof Octagon Hip Frame
+    400254: Roof Pillar 1.5m
+    400256: Roof Pyramid
+    400258: Roof Pyramid Frame
+    400260: Roof Shed
+    400262: Roof Shed End
+    400264: Roof Shed Frame
+    400266: Roof Shed Gable
+    400268: Roof Shed Gable Frame
+    400270: Roof Shed Rake Back
+    400272: Roof Shed Rake Front
+    400274: Roof Valley
+    400276: Roof Valley Frame
+    400278: Roofs Standard Pitch45
+    400280: Sign beam.001
+    400282: Sign board.001
+    400284: Stair
+    400286: Stair 1m
+    400288: Stair 2m
+    400290: Stair 3m
+    400292: Stair Foundation 1m
+    400294: Stair Foundation 2m
+    400296: Stair Foundation 3m
+    400298: Stair Foundation Fence T
+    400300: Stair Foundation Short 1m
+    400302: Stair Foundation Short 2m
+    400304: Stair Foundation Short 3m
+    400306: Stair Foundation Short Fence
+    400308: Stair Short 1m
+    400310: Stair Short 2m
+    400312: Stair Short 3m
+    400314: Stair Short Fence 1m T
+    400316: Stair Short Fence T
+    400318: Stair Short light 1m
+    400320: Stair Short light 1x1m
+    400322: Wall 1.5m
+    400324: Wall 1m
+    400326: Wall 1m Crosswise
+    400328: Wall 3m
+    400330: Wall 3m Crosswise
+    400332: Wall 4m Crosswise
+    400334: Wall Foundation
+    400336: Walls
+    400338: Window Frame 1x1m
+    400340: Window Frame 1x1m.001
+    400342: Window Frame 1x1m.002
+    400344: Window Frame 1x1m.003
+    400346: Window Frame 1x1m.004
+    400348: Window Frame 1x1m.005
+    400350: Window Frame 1x1m.006
+    400352: Window Frame 1x1m.007
+    400354: Window Frame 1x1m.038
+    400356: Window Frame 1x1m.039
+    400358: Window Frame 1x1m.040
+    400360: Window Frame 1x1m.041
+    400362: Window Frame 1x1m.042
+    400364: Window Frame 1x1m.043
+    400366: Window Frame 1x1m.044
+    400368: Window Frame 1x1m.045
+    400370: Window Frame 1x2m.000
+    400372: Window Frame 1x2m.001
+    400374: Window Frame 1x2m.002
+    400376: Window Frame 1x2m.003
+    400378: Window Frame 1x2m.004
+    400380: Window Frame 1x2m.005
+    400382: Window Frame 1x2m.006
+    400384: Window Frame 1x2m.030
+    400386: Window Frame 1x2m.038
+    400388: Window Frame 1x2m.039
+    400390: Window glass 1m.038
+    400392: Window glass 1x1m
+    400394: Window glass 1x1m.001
+    400396: Window glass 1x1m.002
+    400398: Window glass 1x1m.003
+    400400: Window glass 1x1m.004
+    400402: Window glass 1x1m.005
+    400404: Window glass 1x1m.006
+    400406: Window glass 1x1m.007
+    400408: Window glass 1x1m.008
+    400410: Window glass 1x1m.044
+    400412: Window glass 1x1m.045
+    400414: Window glass 1x1m.046
+    400416: Window glass 1x1m.047
+    400418: Window glass 1x1m.048
+    400420: Window glass 1x1m.049
+    400422: Window glass 1x1m.050
+    400424: Window glass 1x1m.051
+    400426: Window glass 1x1m.052
+    400428: Window glass 1x1m.053
+    400430: Window glass 1x1m.054
+    400432: Window glass 1x2m
+    400434: Window glass 1x2m.001
+    400436: Window glass 1x2m.002
+    400438: Window glass 1x2m.003
+    400440: Window glass 1x2m.004
+    400442: Window glass 1x2m.005
+    400444: Window glass 1x2m.006
+    400446: Window glass 1x2m.007
+    400448: Window glass 1x2m.036
+    400450: Window glass 1x2m.037
+    400452: Window glass 1x2m.038
+    400454: Window glass 1x2m.039
+    400456: Window glass 2m.039
+    400458: Window glass C 1m.002
+    400460: Window glass C 2m.002
+    400462: Window glass O 1x1m
+    400464: Window glass O 1x1m.001
+    400466: WindowBorder 1x1m
+    400468: WindowBorder 1x1m.001
+    400470: WindowBorder 1x1m.002
+    400472: WindowBorder 1x1m.003
+    400474: WindowBorder 1x1m.019
+    400476: WindowBorder 1x1m.020
+    400478: WindowBorder 1x1m.021
+    400480: WindowBorder 1x1m.022
+    400482: WindowBorder 1x1m.023
+    400484: WindowBorder 1x1m.024
+    400486: WindowBorder 1x1m.025
+    400488: WindowBorder 1x1m.029
+    400490: WindowBorderC 1x1m.000
+    400492: WindowBorderC 1x1m.001
+    400494: WindowBorderC 1x1m.002
+    400496: WindowBorderC 1x1m.021
+    400498: WindowBorderO
+    400500: WindowFrame 1x1.5m.020
+    400502: WindowFrame 1x1.5m.021
+    400504: WindowFrame 1x1m
+    400506: WindowFrame 1x2.5m.048
+    400508: WindowFrame 1x2m.001
+    400510: WindowFrame 1x2m.013
+    400512: WindowFrame 1x2m.042
+    400514: WindowFrame 1x2m.043
+    400516: WindowFrame 1x2m.044
+    400518: WindowFrameC 1x1.5m.021
+    400520: WindowFrameC 1x2.5m.002
+    400522: WindowFrameC 1x2m.000
+    400524: WindowFrameC 1x2m.001
+    400526: WindowFrameO
+    400528: WindowFrameO.001
+    400530: WindowOFrame 1x1m.019
+    2300000: awning
+    2300002: awning frame
+    2300004: awning frame.001
+    2300006: awning frame.002
+    2300008: awning frame.003
+    2300010: awning frame.004
+    2300012: awning.001
+    2300014: awning.002
+    2300016: awning.003
+    2300018: awning.004
+    2300020: Beam 1.5m
+    2300022: Beam 3m
+    2300024: Beam box.001
+    2300026: Beam Small 1m
+    2300028: Beam Small 3m
+    2300030: Ceiling 1.5m.003
+    2300032: Ceiling 1m
+    2300034: Ceiling 1x3m
+    2300036: Ceiling 2x3m
+    2300038: Ceiling 3m
+    2300040: Ceiling tri 1m
+    2300042: Ceiling tri 2m
+    2300044: Ceiling tri 3m
+    2300046: Door 1x2m
+    2300048: Door 1x2m left
+    2300050: Door 1x2m left.001
+    2300052: Door 1x2m left.004
+    2300054: Door 1x2m left.005
+    2300056: Door 1x2m left.006
+    2300058: Door 1x2m left.007
+    2300060: Door 1x2m left.008
+    2300062: Door 1x2m.008
+    2300064: Door 1x2m.009
+    2300066: Door 1x2m.010
+    2300068: Door 1x2m.011
+    2300070: Door 1x2m.012
+    2300072: Door 1x2m.015
+    2300074: Door 1x2m.016
+    2300076: Door 1x2m.017
+    2300078: DoorBorder 1x1m.026
+    2300080: DoorBorder 1x2m
+    2300082: DoorBorder 1x2m.001
+    2300084: DoorBorder 1x2m.002
+    2300086: DoorBorder 1x2m.003
+    2300088: DoorBorder 1x2m.012
+    2300090: DoorBorder 1x2m.022
+    2300092: DoorBorder 1x2m.027
+    2300094: DoorBorder 1x2m.028
+    2300096: DoorBorder 1x2m.029
+    2300098: DoorBorder 1x2m.039
+    2300100: DoorBorder 1x2m.040
+    2300102: DoorBorder 2x2m
+    2300104: DoorBorder 2x2m.002
+    2300106: DoorFrame 1x2m
+    2300108: DoorFrame 1x2m.012
+    2300110: DoorFrame 1x2m.014
+    2300112: DoorFrame 1x2m.039
+    2300114: DoorFrame 1x2m.040
+    2300116: DoorFrame 1x2m.041
+    2300118: DoorFrame 1x2m.046
+    2300120: DoorFrame 1x2m.047
+    2300122: DoorFrame 2x2m
+    2300124: DoorFrame 2x2m.002
+    2300126: Fence i.001
+    2300128: Fence L.006
+    2300130: Fence T.001
+    2300132: Fence TT.001
+    2300134: Foundation 3x3m
+    2300136: Foundation Ceiling
+    2300138: Foundation half 3x3m
+    2300140: Foundation0.5x3m.001
+    2300142: Foundation1.5x3m
+    2300144: Foundation1x3m
+    2300146: Grid Cube
+    2300148: Grid Cylinder
+    2300150: Pillar 3m
+    2300152: Pillar Foundation
+    2300154: Roof Beam 1.6m
+    2300156: Roof Beam half 3m
+    2300158: Roof Beam Small 0.5m
+    2300160: Roof Beam Small 1.5m
+    2300162: Roof Beam Small 1m
+    2300164: Roof Beam Small 2.5m
+    2300166: Roof Beam Small 2m
+    2300168: Roof Beam Small 3m
+    2300170: Roof Fragment 1.5m center
+    2300172: Roof Fragment 1.5m left
+    2300174: Roof Fragment 1.5m right
+    2300176: Roof Fragment 3m center left
+    2300178: Roof Fragment 3m center right
+    2300180: Roof Fragment 3m left
+    2300182: Roof Fragment 3m right
+    2300184: Roof Frame 1.5m
+    2300186: Roof frame 3m
+    2300188: Roof Gable
+    2300190: Roof Gable End
+    2300192: Roof Gable Frame
+    2300194: Roof Gable Hip
+    2300196: Roof Gable Hip Frame
+    2300198: Roof Gable L
+    2300200: Roof Gable L Frame
+    2300202: Roof Gable Rake
+    2300204: Roof Gable Rake Connect
+    2300206: Roof Gable Rake Connect Frame
+    2300208: Roof Gable Rake Crosswise
+    2300210: Roof Gable Rake Crosswise Frame
+    2300212: Roof Gable T
+    2300214: Roof Gable T Frame
+    2300216: Roof Gable X
+    2300218: Roof Gable X Frame
+    2300220: Roof Hip
+    2300222: Roof Hip Beam
+    2300224: Roof Hip Beam Crosswire
+    2300226: Roof Hip Beam half Crosswire
+    2300228: Roof Hip Crosswire
+    2300230: Roof Hip Crosswire Frame
+    2300232: Roof Hip Frame
+    2300234: Roof Octagon Gable
+    2300236: Roof Octagon Gable Frame
+    2300238: Roof Octagon Hip
+    2300240: Roof Octagon Hip Frame
+    2300242: Roof Pillar 1.5m
+    2300244: Roof Pyramid
+    2300246: Roof Pyramid Frame
+    2300248: Roof Shed
+    2300250: Roof Shed End
+    2300252: Roof Shed Frame
+    2300254: Roof Shed Gable
+    2300256: Roof Shed Gable Frame
+    2300258: Roof Shed Rake Back
+    2300260: Roof Shed Rake Front
+    2300262: Roof Valley
+    2300264: Roof Valley Frame
+    2300266: Roofs Standard Pitch45
+    2300268: Sign beam.001
+    2300270: Sign board.001
+    2300272: Stair
+    2300274: Stair 1m
+    2300276: Stair 2m
+    2300278: Stair 3m
+    2300280: Stair Foundation 1m
+    2300282: Stair Foundation 2m
+    2300284: Stair Foundation 3m
+    2300286: Stair Foundation Fence T
+    2300288: Stair Foundation Short 1m
+    2300290: Stair Foundation Short 2m
+    2300292: Stair Foundation Short 3m
+    2300294: Stair Foundation Short Fence
+    2300296: Stair Short 1m
+    2300298: Stair Short 2m
+    2300300: Stair Short 3m
+    2300302: Stair Short Fence 1m T
+    2300304: Stair Short Fence T
+    2300306: Stair Short light 1m
+    2300308: Stair Short light 1x1m
+    2300310: Wall 1.5m
+    2300312: Wall 1m
+    2300314: Wall 1m Crosswise
+    2300316: Wall 3m
+    2300318: Wall 3m Crosswise
+    2300320: Wall 4m Crosswise
+    2300322: Wall Foundation
+    2300324: Walls
+    2300326: Window Frame 1x1m
+    2300328: Window Frame 1x1m.001
+    2300330: Window Frame 1x1m.002
+    2300332: Window Frame 1x1m.003
+    2300334: Window Frame 1x1m.004
+    2300336: Window Frame 1x1m.005
+    2300338: Window Frame 1x1m.006
+    2300340: Window Frame 1x1m.007
+    2300342: Window Frame 1x1m.038
+    2300344: Window Frame 1x1m.039
+    2300346: Window Frame 1x1m.040
+    2300348: Window Frame 1x1m.041
+    2300350: Window Frame 1x1m.042
+    2300352: Window Frame 1x1m.043
+    2300354: Window Frame 1x1m.044
+    2300356: Window Frame 1x1m.045
+    2300358: Window Frame 1x2m.000
+    2300360: Window Frame 1x2m.001
+    2300362: Window Frame 1x2m.002
+    2300364: Window Frame 1x2m.003
+    2300366: Window Frame 1x2m.004
+    2300368: Window Frame 1x2m.005
+    2300370: Window Frame 1x2m.006
+    2300372: Window Frame 1x2m.030
+    2300374: Window Frame 1x2m.038
+    2300376: Window Frame 1x2m.039
+    2300378: Window glass 1m.038
+    2300380: Window glass 1x1m
+    2300382: Window glass 1x1m.001
+    2300384: Window glass 1x1m.002
+    2300386: Window glass 1x1m.003
+    2300388: Window glass 1x1m.004
+    2300390: Window glass 1x1m.005
+    2300392: Window glass 1x1m.006
+    2300394: Window glass 1x1m.007
+    2300396: Window glass 1x1m.008
+    2300398: Window glass 1x1m.044
+    2300400: Window glass 1x1m.045
+    2300402: Window glass 1x1m.046
+    2300404: Window glass 1x1m.047
+    2300406: Window glass 1x1m.048
+    2300408: Window glass 1x1m.049
+    2300410: Window glass 1x1m.050
+    2300412: Window glass 1x1m.051
+    2300414: Window glass 1x1m.052
+    2300416: Window glass 1x1m.053
+    2300418: Window glass 1x1m.054
+    2300420: Window glass 1x2m
+    2300422: Window glass 1x2m.001
+    2300424: Window glass 1x2m.002
+    2300426: Window glass 1x2m.003
+    2300428: Window glass 1x2m.004
+    2300430: Window glass 1x2m.005
+    2300432: Window glass 1x2m.006
+    2300434: Window glass 1x2m.007
+    2300436: Window glass 1x2m.036
+    2300438: Window glass 1x2m.037
+    2300440: Window glass 1x2m.038
+    2300442: Window glass 1x2m.039
+    2300444: Window glass 2m.039
+    2300446: Window glass C 1m.002
+    2300448: Window glass C 2m.002
+    2300450: Window glass O 1x1m
+    2300452: Window glass O 1x1m.001
+    2300454: WindowBorder 1x1m
+    2300456: WindowBorder 1x1m.001
+    2300458: WindowBorder 1x1m.002
+    2300460: WindowBorder 1x1m.003
+    2300462: WindowBorder 1x1m.019
+    2300464: WindowBorder 1x1m.020
+    2300466: WindowBorder 1x1m.021
+    2300468: WindowBorder 1x1m.022
+    2300470: WindowBorder 1x1m.023
+    2300472: WindowBorder 1x1m.024
+    2300474: WindowBorder 1x1m.025
+    2300476: WindowBorder 1x1m.029
+    2300478: WindowBorderC 1x1m.000
+    2300480: WindowBorderC 1x1m.001
+    2300482: WindowBorderC 1x1m.002
+    2300484: WindowBorderC 1x1m.021
+    2300486: WindowBorderO
+    2300488: WindowFrame 1x1.5m.020
+    2300490: WindowFrame 1x1.5m.021
+    2300492: WindowFrame 1x1m
+    2300494: WindowFrame 1x2.5m.048
+    2300496: WindowFrame 1x2m.001
+    2300498: WindowFrame 1x2m.013
+    2300500: WindowFrame 1x2m.042
+    2300502: WindowFrame 1x2m.043
+    2300504: WindowFrame 1x2m.044
+    2300506: WindowFrameC 1x1.5m.021
+    2300508: WindowFrameC 1x2.5m.002
+    2300510: WindowFrameC 1x2m.000
+    2300512: WindowFrameC 1x2m.001
+    2300514: WindowFrameO
+    2300516: WindowFrameO.001
+    2300518: WindowOFrame 1x1m.019
+    3300000: awning
+    3300002: awning frame
+    3300004: awning frame.001
+    3300006: awning frame.002
+    3300008: awning frame.003
+    3300010: awning frame.004
+    3300012: awning.001
+    3300014: awning.002
+    3300016: awning.003
+    3300018: awning.004
+    3300020: Beam 1.5m
+    3300022: Beam 3m
+    3300024: Beam box.001
+    3300026: Beam Small 1m
+    3300028: Beam Small 3m
+    3300030: Ceiling 1.5m.003
+    3300032: Ceiling 1m
+    3300034: Ceiling 1x3m
+    3300036: Ceiling 2x3m
+    3300038: Ceiling 3m
+    3300040: Ceiling tri 1m
+    3300042: Ceiling tri 2m
+    3300044: Ceiling tri 3m
+    3300046: Door 1x2m
+    3300048: Door 1x2m left
+    3300050: Door 1x2m left.001
+    3300052: Door 1x2m left.004
+    3300054: Door 1x2m left.005
+    3300056: Door 1x2m left.006
+    3300058: Door 1x2m left.007
+    3300060: Door 1x2m left.008
+    3300062: Door 1x2m.008
+    3300064: Door 1x2m.009
+    3300066: Door 1x2m.010
+    3300068: Door 1x2m.011
+    3300070: Door 1x2m.012
+    3300072: Door 1x2m.015
+    3300074: Door 1x2m.016
+    3300076: Door 1x2m.017
+    3300078: DoorBorder 1x1m.026
+    3300080: DoorBorder 1x2m
+    3300082: DoorBorder 1x2m.001
+    3300084: DoorBorder 1x2m.002
+    3300086: DoorBorder 1x2m.003
+    3300088: DoorBorder 1x2m.012
+    3300090: DoorBorder 1x2m.022
+    3300092: DoorBorder 1x2m.027
+    3300094: DoorBorder 1x2m.028
+    3300096: DoorBorder 1x2m.029
+    3300098: DoorBorder 1x2m.039
+    3300100: DoorBorder 1x2m.040
+    3300102: DoorBorder 2x2m
+    3300104: DoorBorder 2x2m.002
+    3300106: DoorFrame 1x2m
+    3300108: DoorFrame 1x2m.012
+    3300110: DoorFrame 1x2m.014
+    3300112: DoorFrame 1x2m.039
+    3300114: DoorFrame 1x2m.040
+    3300116: DoorFrame 1x2m.041
+    3300118: DoorFrame 1x2m.046
+    3300120: DoorFrame 1x2m.047
+    3300122: DoorFrame 2x2m
+    3300124: DoorFrame 2x2m.002
+    3300126: Fence i.001
+    3300128: Fence L.006
+    3300130: Fence T.001
+    3300132: Fence TT.001
+    3300134: Foundation 3x3m
+    3300136: Foundation Ceiling
+    3300138: Foundation half 3x3m
+    3300140: Foundation0.5x3m.001
+    3300142: Foundation1.5x3m
+    3300144: Foundation1x3m
+    3300146: Grid Cube
+    3300148: Grid Cylinder
+    3300150: Pillar 3m
+    3300152: Pillar Foundation
+    3300154: Roof Beam 1.6m
+    3300156: Roof Beam half 3m
+    3300158: Roof Beam Small 0.5m
+    3300160: Roof Beam Small 1.5m
+    3300162: Roof Beam Small 1m
+    3300164: Roof Beam Small 2.5m
+    3300166: Roof Beam Small 2m
+    3300168: Roof Beam Small 3m
+    3300170: Roof Fragment 1.5m center
+    3300172: Roof Fragment 1.5m left
+    3300174: Roof Fragment 1.5m right
+    3300176: Roof Fragment 3m center left
+    3300178: Roof Fragment 3m center right
+    3300180: Roof Fragment 3m left
+    3300182: Roof Fragment 3m right
+    3300184: Roof Frame 1.5m
+    3300186: Roof frame 3m
+    3300188: Roof Gable
+    3300190: Roof Gable End
+    3300192: Roof Gable Frame
+    3300194: Roof Gable Hip
+    3300196: Roof Gable Hip Frame
+    3300198: Roof Gable L
+    3300200: Roof Gable L Frame
+    3300202: Roof Gable Rake
+    3300204: Roof Gable Rake Connect
+    3300206: Roof Gable Rake Connect Frame
+    3300208: Roof Gable Rake Crosswise
+    3300210: Roof Gable Rake Crosswise Frame
+    3300212: Roof Gable T
+    3300214: Roof Gable T Frame
+    3300216: Roof Gable X
+    3300218: Roof Gable X Frame
+    3300220: Roof Hip
+    3300222: Roof Hip Beam
+    3300224: Roof Hip Beam Crosswire
+    3300226: Roof Hip Beam half Crosswire
+    3300228: Roof Hip Crosswire
+    3300230: Roof Hip Crosswire Frame
+    3300232: Roof Hip Frame
+    3300234: Roof Octagon Gable
+    3300236: Roof Octagon Gable Frame
+    3300238: Roof Octagon Hip
+    3300240: Roof Octagon Hip Frame
+    3300242: Roof Pillar 1.5m
+    3300244: Roof Pyramid
+    3300246: Roof Pyramid Frame
+    3300248: Roof Shed
+    3300250: Roof Shed End
+    3300252: Roof Shed Frame
+    3300254: Roof Shed Gable
+    3300256: Roof Shed Gable Frame
+    3300258: Roof Shed Rake Back
+    3300260: Roof Shed Rake Front
+    3300262: Roof Valley
+    3300264: Roof Valley Frame
+    3300266: Roofs Standard Pitch45
+    3300268: Sign beam.001
+    3300270: Sign board.001
+    3300272: Stair
+    3300274: Stair 1m
+    3300276: Stair 2m
+    3300278: Stair 3m
+    3300280: Stair Foundation 1m
+    3300282: Stair Foundation 2m
+    3300284: Stair Foundation 3m
+    3300286: Stair Foundation Fence T
+    3300288: Stair Foundation Short 1m
+    3300290: Stair Foundation Short 2m
+    3300292: Stair Foundation Short 3m
+    3300294: Stair Foundation Short Fence
+    3300296: Stair Short 1m
+    3300298: Stair Short 2m
+    3300300: Stair Short 3m
+    3300302: Stair Short Fence 1m T
+    3300304: Stair Short Fence T
+    3300306: Stair Short light 1m
+    3300308: Stair Short light 1x1m
+    3300310: Wall 1.5m
+    3300312: Wall 1m
+    3300314: Wall 1m Crosswise
+    3300316: Wall 3m
+    3300318: Wall 3m Crosswise
+    3300320: Wall 4m Crosswise
+    3300322: Wall Foundation
+    3300324: Walls
+    3300326: Window Frame 1x1m
+    3300328: Window Frame 1x1m.001
+    3300330: Window Frame 1x1m.002
+    3300332: Window Frame 1x1m.003
+    3300334: Window Frame 1x1m.004
+    3300336: Window Frame 1x1m.005
+    3300338: Window Frame 1x1m.006
+    3300340: Window Frame 1x1m.007
+    3300342: Window Frame 1x1m.038
+    3300344: Window Frame 1x1m.039
+    3300346: Window Frame 1x1m.040
+    3300348: Window Frame 1x1m.041
+    3300350: Window Frame 1x1m.042
+    3300352: Window Frame 1x1m.043
+    3300354: Window Frame 1x1m.044
+    3300356: Window Frame 1x1m.045
+    3300358: Window Frame 1x2m.000
+    3300360: Window Frame 1x2m.001
+    3300362: Window Frame 1x2m.002
+    3300364: Window Frame 1x2m.003
+    3300366: Window Frame 1x2m.004
+    3300368: Window Frame 1x2m.005
+    3300370: Window Frame 1x2m.006
+    3300372: Window Frame 1x2m.030
+    3300374: Window Frame 1x2m.038
+    3300376: Window Frame 1x2m.039
+    3300378: Window glass 1m.038
+    3300380: Window glass 1x1m
+    3300382: Window glass 1x1m.001
+    3300384: Window glass 1x1m.002
+    3300386: Window glass 1x1m.003
+    3300388: Window glass 1x1m.004
+    3300390: Window glass 1x1m.005
+    3300392: Window glass 1x1m.006
+    3300394: Window glass 1x1m.007
+    3300396: Window glass 1x1m.008
+    3300398: Window glass 1x1m.044
+    3300400: Window glass 1x1m.045
+    3300402: Window glass 1x1m.046
+    3300404: Window glass 1x1m.047
+    3300406: Window glass 1x1m.048
+    3300408: Window glass 1x1m.049
+    3300410: Window glass 1x1m.050
+    3300412: Window glass 1x1m.051
+    3300414: Window glass 1x1m.052
+    3300416: Window glass 1x1m.053
+    3300418: Window glass 1x1m.054
+    3300420: Window glass 1x2m
+    3300422: Window glass 1x2m.001
+    3300424: Window glass 1x2m.002
+    3300426: Window glass 1x2m.003
+    3300428: Window glass 1x2m.004
+    3300430: Window glass 1x2m.005
+    3300432: Window glass 1x2m.006
+    3300434: Window glass 1x2m.007
+    3300436: Window glass 1x2m.036
+    3300438: Window glass 1x2m.037
+    3300440: Window glass 1x2m.038
+    3300442: Window glass 1x2m.039
+    3300444: Window glass 2m.039
+    3300446: Window glass C 1m.002
+    3300448: Window glass C 2m.002
+    3300450: Window glass O 1x1m
+    3300452: Window glass O 1x1m.001
+    3300454: WindowBorder 1x1m
+    3300456: WindowBorder 1x1m.001
+    3300458: WindowBorder 1x1m.002
+    3300460: WindowBorder 1x1m.003
+    3300462: WindowBorder 1x1m.019
+    3300464: WindowBorder 1x1m.020
+    3300466: WindowBorder 1x1m.021
+    3300468: WindowBorder 1x1m.022
+    3300470: WindowBorder 1x1m.023
+    3300472: WindowBorder 1x1m.024
+    3300474: WindowBorder 1x1m.025
+    3300476: WindowBorder 1x1m.029
+    3300478: WindowBorderC 1x1m.000
+    3300480: WindowBorderC 1x1m.001
+    3300482: WindowBorderC 1x1m.002
+    3300484: WindowBorderC 1x1m.021
+    3300486: WindowBorderO
+    3300488: WindowFrame 1x1.5m.020
+    3300490: WindowFrame 1x1.5m.021
+    3300492: WindowFrame 1x1m
+    3300494: WindowFrame 1x2.5m.048
+    3300496: WindowFrame 1x2m.001
+    3300498: WindowFrame 1x2m.013
+    3300500: WindowFrame 1x2m.042
+    3300502: WindowFrame 1x2m.043
+    3300504: WindowFrame 1x2m.044
+    3300506: WindowFrameC 1x1.5m.021
+    3300508: WindowFrameC 1x2.5m.002
+    3300510: WindowFrameC 1x2m.000
+    3300512: WindowFrameC 1x2m.001
+    3300514: WindowFrameO
+    3300516: WindowFrameO.001
+    3300518: WindowOFrame 1x1m.019
+    4300000: Grid Cylinder
+    4300002: Grid Cube
+    4300004: Foundation Ceiling
+    4300006: Ceiling 1x3m
+    4300008: Ceiling 2x3m
+    4300010: Ceiling tri 1m
+    4300012: Ceiling tri 2m
+    4300014: Ceiling tri 3m
+    4300016: Foundation 3x3m
+    4300018: Ceiling 1m
+    4300020: Ceiling 1.5m.003
+    4300022: Ceiling 3m
+    4300024: Foundation half 3x3m
+    4300026: Foundation1.5x3m
+    4300028: Foundation1x3m
+    4300030: Foundation0.5x3m.001
+    4300032: Stair
+    4300034: Stair Short Fence 1m T
+    4300036: Stair Short light 1x1m
+    4300038: Stair Foundation Short 3m
+    4300040: Stair Foundation Short 2m
+    4300042: Stair Short 1m
+    4300044: Stair Short 3m
+    4300046: Stair Short 2m
+    4300048: Stair Foundation Short 1m
+    4300050: Stair Short light 1m
+    4300052: Stair 1m
+    4300054: Stair Foundation 1m
+    4300056: Stair Foundation 2m
+    4300058: Stair 2m
+    4300060: Stair Foundation 3m
+    4300062: Stair 3m
+    4300064: Stair Foundation Fence T
+    4300066: Stair Short Fence T
+    4300068: Stair Foundation Short Fence
+    4300070: Walls
+    4300072: Wall 1.5m
+    4300074: WindowFrame 1x2m.044
+    4300076: DoorBorder 1x2m.029
+    4300078: Window Frame 1x2m.006
+    4300080: Window glass 1x2m.007
+    4300082: Window Frame 1x2m.005
+    4300084: Window glass 1x2m.006
+    4300086: DoorFrame 1x2m.012
+    4300088: DoorBorder 1x2m.012
+    4300090: Window Frame 1x2m.039
+    4300092: Window glass 1x2m.039
+    4300094: Window Frame 1x2m.038
+    4300096: Window glass 1x2m.038
+    4300098: Window glass 1x2m.036
+    4300100: Fence TT.001
+    4300102: WindowFrame 1x2m.013
+    4300104: DoorBorder 1x2m.022
+    4300106: Window glass 1x2m.037
+    4300108: DoorFrame 1x2m.014
+    4300110: DoorFrame 1x2m.047
+    4300112: DoorBorder 1x2m.040
+    4300114: Window glass C 2m.002
+    4300116: Door 1x2m left.008
+    4300118: Door 1x2m left.007
+    4300120: DoorFrame 1x2m.046
+    4300122: DoorBorder 1x2m.039
+    4300124: Window glass C 1m.002
+    4300126: Door 1x2m.012
+    4300128: Beam Small 1m
+    4300130: Beam Small 3m
+    4300132: Beam box.001
+    4300134: WindowFrame 1x2m.043
+    4300136: WindowBorder 1x1m.025
+    4300138: Window Frame 1x1m.045
+    4300140: Window glass 1x1m.054
+    4300142: Window Frame 1x1m.044
+    4300144: Window glass 1x1m.053
+    4300146: WindowBorder 1x1m.024
+    4300148: Window glass 1x1m.052
+    4300150: WindowFrame 1x2m.042
+    4300152: WindowBorder 1x1m.023
+    4300154: Window glass 1x1m.051
+    4300156: WindowBorder 1x1m.022
+    4300158: Window Frame 1x1m.039
+    4300160: Window glass 1x1m.050
+    4300162: Window Frame 1x1m.038
+    4300164: Window glass 1x1m.049
+    4300166: WindowFrame 1x1.5m.021
+    4300168: WindowBorder 1x1m.021
+    4300170: Window glass 1x1m.048
+    4300172: WindowBorder 1x1m.020
+    4300174: Window Frame 1x1m.043
+    4300176: Window glass 1x1m.047
+    4300178: Window Frame 1x1m.042
+    4300180: Window glass 1x1m.046
+    4300182: WindowFrame 1x1.5m.020
+    4300184: WindowBorder 1x1m.019
+    4300186: Window Frame 1x1m.040
+    4300188: Window glass 1x1m.044
+    4300190: Window Frame 1x1m.041
+    4300192: Window glass 1x1m.045
+    4300194: WindowOFrame 1x1m.019
+    4300196: WindowBorderO
+    4300198: WindowFrameO.001
+    4300200: Window glass O 1x1m.001
+    4300202: WindowFrameO
+    4300204: Window glass O 1x1m
+    4300206: DoorFrame 1x2m.041
+    4300208: DoorBorder 1x2m.028
+    4300210: Door 1x2m.010
+    4300212: Door 1x2m.008
+    4300214: DoorFrame 2x2m.002
+    4300216: DoorBorder 2x2m.002
+    4300218: Window glass 2m.039
+    4300220: Door 1x2m left.006
+    4300222: Door 1x2m left.005
+    4300224: DoorFrame 1x2m.039
+    4300226: DoorBorder 1x1m.026
+    4300228: Window glass 1m.038
+    4300230: Door 1x2m left.004
+    4300232: DoorFrame 1x2m.040
+    4300234: DoorBorder 1x2m.027
+    4300236: Door 1x2m.009
+    4300238: Beam 1.5m
+    4300240: WindowFrame 1x2m.001
+    4300242: DoorBorder 1x2m.001
+    4300244: Window Frame 1x2m.000
+    4300246: Window glass 1x2m.001
+    4300248: Window Frame 1x2m.030
+    4300250: Window glass 1x2m
+    4300252: Pillar 3m
+    4300254: Wall Foundation
+    4300256: Pillar Foundation
+    4300258: DoorFrame 2x2m
+    4300260: DoorBorder 2x2m
+    4300262: Door 1x2m left.001
+    4300264: Door 1x2m left
+    4300266: Wall 1m
+    4300268: WindowFrame 1x1m
+    4300270: WindowBorder 1x1m
+    4300272: Window Frame 1x1m
+    4300274: Window glass 1x1m
+    4300276: Window Frame 1x1m.001
+    4300278: Window glass 1x1m.001
+    4300280: DoorFrame 1x2m
+    4300282: DoorBorder 1x2m
+    4300284: Door 1x2m
+    4300286: Wall 3m
+    4300288: Fence i.001
+    4300290: Fence T.001
+    4300292: Fence L.006
+    4300294: Beam 3m
+    4300296: Sign beam.001
+    4300298: Sign board.001
+    4300300: WindowFrameC 1x1.5m.021
+    4300302: WindowBorder 1x1m.001
+    4300304: Window Frame 1x1m.003
+    4300306: Window glass 1x1m.004
+    4300308: Window Frame 1x1m.002
+    4300310: Window glass 1x1m.003
+    4300312: WindowBorderC 1x1m.021
+    4300314: Door 1x2m.011
+    4300316: WindowFrameC 1x2.5m.002
+    4300318: DoorBorder 1x2m.003
+    4300320: Window Frame 1x2m.004
+    4300322: Window glass 1x2m.005
+    4300324: Window Frame 1x2m.003
+    4300326: Window glass 1x2m.004
+    4300328: WindowBorderC 1x1m.002
+    4300330: Door 1x2m.017
+    4300332: WindowFrameC 1x2m.000
+    4300334: WindowBorder 1x1m.002
+    4300336: Window Frame 1x1m.005
+    4300338: Window glass 1x1m.006
+    4300340: Window Frame 1x1m.004
+    4300342: Window glass 1x1m.005
+    4300344: WindowBorderC 1x1m.000
+    4300346: Door 1x2m.015
+    4300348: WindowFrameC 1x2m.001
+    4300350: WindowBorder 1x1m.003
+    4300352: Window Frame 1x1m.007
+    4300354: Window glass 1x1m.008
+    4300356: Window Frame 1x1m.006
+    4300358: Window glass 1x1m.007
+    4300360: WindowBorderC 1x1m.001
+    4300362: Door 1x2m.016
+    4300364: WindowFrame 1x2.5m.048
+    4300366: DoorBorder 1x2m.002
+    4300368: Window Frame 1x2m.002
+    4300370: Window glass 1x2m.003
+    4300372: Window Frame 1x2m.001
+    4300374: Window glass 1x2m.002
+    4300376: WindowBorder 1x1m.029
+    4300378: Window glass 1x1m.002
+    4300380: Roofs Standard Pitch45
+    4300382: awning frame.004
+    4300384: awning
+    4300386: awning.004
+    4300388: awning frame
+    4300390: awning frame.001
+    4300392: awning frame.002
+    4300394: awning frame.003
+    4300396: awning.003
+    4300398: awning.002
+    4300400: awning.001
+    4300402: Roof frame 3m
+    4300404: Roof Hip Crosswire Frame
+    4300406: Roof Beam half 3m
+    4300408: Roof Beam Small 1.5m
+    4300410: Roof Beam 1.6m
+    4300412: Roof Beam Small 0.5m
+    4300414: Roof Beam Small 1m
+    4300416: Roof Beam Small 2m
+    4300418: Roof Beam Small 2.5m
+    4300420: Roof Beam Small 3m
+    4300422: Roof Pillar 1.5m
+    4300424: Roof Octagon Gable Frame
+    4300426: Roof Octagon Hip Frame
+    4300428: Roof Shed Frame
+    4300430: Roof Hip Crosswire
+    4300432: Roof Gable Rake Crosswise Frame
+    4300434: Roof Gable Rake Connect Frame
+    4300436: Roof Octagon Gable
+    4300438: Roof Octagon Hip
+    4300440: Roof Hip Beam half Crosswire
+    4300442: Roof Hip Beam Crosswire
+    4300444: Roof Valley Frame
+    4300446: Roof Hip Frame
+    4300448: Roof Shed Gable Frame
+    4300450: Roof Gable X Frame
+    4300452: Roof Gable T Frame
+    4300454: Roof Gable L Frame
+    4300456: Roof Gable Hip Frame
+    4300458: Roof Pyramid Frame
+    4300460: Roof Frame 1.5m
+    4300462: Roof Gable Frame
+    4300464: Roof Hip Beam
+    4300466: Wall 1m Crosswise
+    4300468: Wall 4m Crosswise
+    4300470: Wall 3m Crosswise
+    4300472: Roof Gable Rake
+    4300474: Roof Shed Gable
+    4300476: Roof Gable Rake Connect
+    4300478: Roof Fragment 3m right
+    4300480: Roof Fragment 3m center right
+    4300482: Roof Fragment 3m left
+    4300484: Roof Fragment 3m center left
+    4300486: Roof Fragment 1.5m right
+    4300488: Roof Fragment 1.5m center
+    4300490: Roof Fragment 1.5m left
+    4300492: Roof Gable Rake Crosswise
+    4300494: Roof Gable Hip
+    4300496: Roof Shed Rake Front
+    4300498: Roof Valley
+    4300500: Roof Hip
+    4300502: Roof Shed Rake Back
+    4300504: Roof Shed End
+    4300506: Roof Gable X
+    4300508: Roof Gable T
+    4300510: Roof Gable L
+    4300512: Roof Gable End
+    4300514: Roof Gable
+    4300516: Roof Shed
+    4300518: Roof Pyramid
+    6400000: awning
+    6400002: awning frame
+    6400004: awning frame.001
+    6400006: awning frame.002
+    6400008: awning frame.003
+    6400010: awning frame.004
+    6400012: awning.001
+    6400014: awning.002
+    6400016: awning.003
+    6400018: awning.004
+    6400020: Beam 1.5m
+    6400022: Beam 3m
+    6400024: Beam box.001
+    6400026: Beam Small 1m
+    6400028: Beam Small 3m
+    6400030: Ceiling 1.5m.003
+    6400032: Ceiling 1m
+    6400034: Ceiling 1x3m
+    6400036: Ceiling 2x3m
+    6400038: Ceiling 3m
+    6400040: Ceiling tri 1m
+    6400042: Ceiling tri 2m
+    6400044: Ceiling tri 3m
+    6400046: Door 1x2m
+    6400048: Door 1x2m left
+    6400050: Door 1x2m left.001
+    6400052: Door 1x2m left.004
+    6400054: Door 1x2m left.005
+    6400056: Door 1x2m left.006
+    6400058: Door 1x2m left.007
+    6400060: Door 1x2m left.008
+    6400062: Door 1x2m.008
+    6400064: Door 1x2m.009
+    6400066: Door 1x2m.010
+    6400068: Door 1x2m.011
+    6400070: Door 1x2m.012
+    6400072: Door 1x2m.015
+    6400074: Door 1x2m.016
+    6400076: Door 1x2m.017
+    6400078: DoorBorder 1x1m.026
+    6400080: DoorBorder 1x2m
+    6400082: DoorBorder 1x2m.001
+    6400084: DoorBorder 1x2m.002
+    6400086: DoorBorder 1x2m.003
+    6400088: DoorBorder 1x2m.012
+    6400090: DoorBorder 1x2m.022
+    6400092: DoorBorder 1x2m.027
+    6400094: DoorBorder 1x2m.028
+    6400096: DoorBorder 1x2m.029
+    6400098: DoorBorder 1x2m.039
+    6400100: DoorBorder 1x2m.040
+    6400102: DoorBorder 2x2m
+    6400104: DoorBorder 2x2m.002
+    6400106: DoorFrame 1x2m
+    6400108: DoorFrame 1x2m.012
+    6400110: DoorFrame 1x2m.014
+    6400112: DoorFrame 1x2m.039
+    6400114: DoorFrame 1x2m.040
+    6400116: DoorFrame 1x2m.041
+    6400118: DoorFrame 1x2m.046
+    6400120: DoorFrame 1x2m.047
+    6400122: DoorFrame 2x2m
+    6400124: DoorFrame 2x2m.002
+    6400126: Fence i.001
+    6400128: Fence L.006
+    6400130: Fence T.001
+    6400132: Fence TT.001
+    6400134: Foundation 3x3m
+    6400136: Foundation Ceiling
+    6400138: Foundation half 3x3m
+    6400140: Foundation0.5x3m.001
+    6400142: Foundation1.5x3m
+    6400144: Foundation1x3m
+    6400146: Grid Cube
+    6400148: Grid Cylinder
+    6400150: Pillar 3m
+    6400152: Pillar Foundation
+    6400154: Roof Beam 1.6m
+    6400156: Roof Beam half 3m
+    6400158: Roof Beam Small 0.5m
+    6400160: Roof Beam Small 1.5m
+    6400162: Roof Beam Small 1m
+    6400164: Roof Beam Small 2.5m
+    6400166: Roof Beam Small 2m
+    6400168: Roof Beam Small 3m
+    6400170: Roof Fragment 1.5m center
+    6400172: Roof Fragment 1.5m left
+    6400174: Roof Fragment 1.5m right
+    6400176: Roof Fragment 3m center left
+    6400178: Roof Fragment 3m center right
+    6400180: Roof Fragment 3m left
+    6400182: Roof Fragment 3m right
+    6400184: Roof Frame 1.5m
+    6400186: Roof frame 3m
+    6400188: Roof Gable
+    6400190: Roof Gable End
+    6400192: Roof Gable Frame
+    6400194: Roof Gable Hip
+    6400196: Roof Gable Hip Frame
+    6400198: Roof Gable L
+    6400200: Roof Gable L Frame
+    6400202: Roof Gable Rake
+    6400204: Roof Gable Rake Connect
+    6400206: Roof Gable Rake Connect Frame
+    6400208: Roof Gable Rake Crosswise
+    6400210: Roof Gable Rake Crosswise Frame
+    6400212: Roof Gable T
+    6400214: Roof Gable T Frame
+    6400216: Roof Gable X
+    6400218: Roof Gable X Frame
+    6400220: Roof Hip
+    6400222: Roof Hip Beam
+    6400224: Roof Hip Beam Crosswire
+    6400226: Roof Hip Beam half Crosswire
+    6400228: Roof Hip Crosswire
+    6400230: Roof Hip Crosswire Frame
+    6400232: Roof Hip Frame
+    6400234: Roof Octagon Gable
+    6400236: Roof Octagon Gable Frame
+    6400238: Roof Octagon Hip
+    6400240: Roof Octagon Hip Frame
+    6400242: Roof Pillar 1.5m
+    6400244: Roof Pyramid
+    6400246: Roof Pyramid Frame
+    6400248: Roof Shed
+    6400250: Roof Shed End
+    6400252: Roof Shed Frame
+    6400254: Roof Shed Gable
+    6400256: Roof Shed Gable Frame
+    6400258: Roof Shed Rake Back
+    6400260: Roof Shed Rake Front
+    6400262: Roof Valley
+    6400264: Roof Valley Frame
+    6400266: Roofs Standard Pitch45
+    6400268: Sign beam.001
+    6400270: Sign board.001
+    6400272: Stair
+    6400274: Stair 1m
+    6400276: Stair 2m
+    6400278: Stair 3m
+    6400280: Stair Foundation 1m
+    6400282: Stair Foundation 2m
+    6400284: Stair Foundation 3m
+    6400286: Stair Foundation Fence T
+    6400288: Stair Foundation Short 1m
+    6400290: Stair Foundation Short 2m
+    6400292: Stair Foundation Short 3m
+    6400294: Stair Foundation Short Fence
+    6400296: Stair Short 1m
+    6400298: Stair Short 2m
+    6400300: Stair Short 3m
+    6400302: Stair Short Fence 1m T
+    6400304: Stair Short Fence T
+    6400306: Stair Short light 1m
+    6400308: Stair Short light 1x1m
+    6400310: Wall 1.5m
+    6400312: Wall 1m
+    6400314: Wall 1m Crosswise
+    6400316: Wall 3m
+    6400318: Wall 3m Crosswise
+    6400320: Wall 4m Crosswise
+    6400322: Wall Foundation
+    6400324: Walls
+    6400326: Window Frame 1x1m
+    6400328: Window Frame 1x1m.001
+    6400330: Window Frame 1x1m.002
+    6400332: Window Frame 1x1m.003
+    6400334: Window Frame 1x1m.004
+    6400336: Window Frame 1x1m.005
+    6400338: Window Frame 1x1m.006
+    6400340: Window Frame 1x1m.007
+    6400342: Window Frame 1x1m.038
+    6400344: Window Frame 1x1m.039
+    6400346: Window Frame 1x1m.040
+    6400348: Window Frame 1x1m.041
+    6400350: Window Frame 1x1m.042
+    6400352: Window Frame 1x1m.043
+    6400354: Window Frame 1x1m.044
+    6400356: Window Frame 1x1m.045
+    6400358: Window Frame 1x2m.000
+    6400360: Window Frame 1x2m.001
+    6400362: Window Frame 1x2m.002
+    6400364: Window Frame 1x2m.003
+    6400366: Window Frame 1x2m.004
+    6400368: Window Frame 1x2m.005
+    6400370: Window Frame 1x2m.006
+    6400372: Window Frame 1x2m.030
+    6400374: Window Frame 1x2m.038
+    6400376: Window Frame 1x2m.039
+    6400378: Window glass 1m.038
+    6400380: Window glass 1x1m
+    6400382: Window glass 1x1m.001
+    6400384: Window glass 1x1m.002
+    6400386: Window glass 1x1m.003
+    6400388: Window glass 1x1m.004
+    6400390: Window glass 1x1m.005
+    6400392: Window glass 1x1m.006
+    6400394: Window glass 1x1m.007
+    6400396: Window glass 1x1m.008
+    6400398: Window glass 1x1m.044
+    6400400: Window glass 1x1m.045
+    6400402: Window glass 1x1m.046
+    6400404: Window glass 1x1m.047
+    6400406: Window glass 1x1m.048
+    6400408: Window glass 1x1m.049
+    6400410: Window glass 1x1m.050
+    6400412: Window glass 1x1m.051
+    6400414: Window glass 1x1m.052
+    6400416: Window glass 1x1m.053
+    6400418: Window glass 1x1m.054
+    6400420: Window glass 1x2m
+    6400422: Window glass 1x2m.001
+    6400424: Window glass 1x2m.002
+    6400426: Window glass 1x2m.003
+    6400428: Window glass 1x2m.004
+    6400430: Window glass 1x2m.005
+    6400432: Window glass 1x2m.006
+    6400434: Window glass 1x2m.007
+    6400436: Window glass 1x2m.036
+    6400438: Window glass 1x2m.037
+    6400440: Window glass 1x2m.038
+    6400442: Window glass 1x2m.039
+    6400444: Window glass 2m.039
+    6400446: Window glass C 1m.002
+    6400448: Window glass C 2m.002
+    6400450: Window glass O 1x1m
+    6400452: Window glass O 1x1m.001
+    6400454: WindowBorder 1x1m
+    6400456: WindowBorder 1x1m.001
+    6400458: WindowBorder 1x1m.002
+    6400460: WindowBorder 1x1m.003
+    6400462: WindowBorder 1x1m.019
+    6400464: WindowBorder 1x1m.020
+    6400466: WindowBorder 1x1m.021
+    6400468: WindowBorder 1x1m.022
+    6400470: WindowBorder 1x1m.023
+    6400472: WindowBorder 1x1m.024
+    6400474: WindowBorder 1x1m.025
+    6400476: WindowBorder 1x1m.029
+    6400478: WindowBorderC 1x1m.000
+    6400480: WindowBorderC 1x1m.001
+    6400482: WindowBorderC 1x1m.002
+    6400484: WindowBorderC 1x1m.021
+    6400486: WindowBorderO
+    6400488: WindowFrame 1x1.5m.020
+    6400490: WindowFrame 1x1.5m.021
+    6400492: WindowFrame 1x1m
+    6400494: WindowFrame 1x2.5m.048
+    6400496: WindowFrame 1x2m.001
+    6400498: WindowFrame 1x2m.013
+    6400500: WindowFrame 1x2m.042
+    6400502: WindowFrame 1x2m.043
+    6400504: WindowFrame 1x2m.044
+    6400506: WindowFrameC 1x1.5m.021
+    6400508: WindowFrameC 1x2.5m.002
+    6400510: WindowFrameC 1x2m.000
+    6400512: WindowFrameC 1x2m.001
+    6400514: WindowFrameO
+    6400516: WindowFrameO.001
+    6400518: WindowOFrame 1x1m.019
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
